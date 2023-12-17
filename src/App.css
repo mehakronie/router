@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(147, 129, 105);
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-line: none;
+  display: inline;
+  margin: 20px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+li:hover {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+button {
+  background-color: rgb(134, 100, 56);
+  color: aliceblue;
+  padding: 10px;
+  border: 1px white solid;
+  border-radius: 10px;
+}
